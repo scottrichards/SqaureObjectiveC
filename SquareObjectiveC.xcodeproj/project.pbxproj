@@ -12,6 +12,7 @@
 		01440D3027C75BE20001B797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01440D2F27C75BE20001B797 /* Assets.xcassets */; };
 		01440D3327C75BE20001B797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01440D3127C75BE20001B797 /* Main.storyboard */; };
 		01440D3527C75BE20001B797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01440D3427C75BE20001B797 /* main.m */; };
+		01F5D6B327CD3FBD00E1CA0D /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F5D6B227CD3FBD00E1CA0D /* DrawRectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		01440D3227C75BE20001B797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01440D3427C75BE20001B797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01440D3627C75BE20001B797 /* SquareObjectiveC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SquareObjectiveC.entitlements; sourceTree = "<group>"; };
+		01F5D6B127CD3FBD00E1CA0D /* DrawRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawRectView.h; sourceTree = "<group>"; };
+		01F5D6B227CD3FBD00E1CA0D /* DrawRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawRectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				01440D3127C75BE20001B797 /* Main.storyboard */,
 				01440D3427C75BE20001B797 /* main.m */,
 				01440D3627C75BE20001B797 /* SquareObjectiveC.entitlements */,
+				01F5D6B127CD3FBD00E1CA0D /* DrawRectView.h */,
+				01F5D6B227CD3FBD00E1CA0D /* DrawRectView.m */,
 			);
 			path = SquareObjectiveC;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F5D6B327CD3FBD00E1CA0D /* DrawRectView.m in Sources */,
 				01440D2E27C75BE00001B797 /* ViewController.m in Sources */,
 				01440D3527C75BE20001B797 /* main.m in Sources */,
 				01440D2B27C75BE00001B797 /* AppDelegate.m in Sources */,

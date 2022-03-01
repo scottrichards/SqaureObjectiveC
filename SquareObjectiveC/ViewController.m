@@ -29,7 +29,7 @@
 
 - (void)drawRect:(NSRect)rect {
    [[NSColor redColor] set];
-   CGPathRef path = CGPathCreateMutable();
+   CGMutablePathRef path = CGPathCreateMutable();
    CGPathAddRect(path, NULL, CGRectMake(100, 50, 250, 250));
    CGPathRelease(path);
 }
